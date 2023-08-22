@@ -1,0 +1,55 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Music Player</title>
+    
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/f3c3992b45.js" crossorigin="anonymous"></script>
+    
+    <!-- My style css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- container principale -->
+    <div class="container-fluid bg-image vh-100 d-flex flex-column justify-content-around">
+        <div class="row justify-content-center">
+            <div class="col-12 d-flex justify-content-center align-items-center title-custom">
+                <h1 class="text-center">NICHIFY</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <!-- colonna 1: Barra di navigazione-->
+            <div class="col-12 col-md-1 d-flex flex-md-column justify-content-center">
+                <!-- Music -->
+                <button class="btn btn-outline-light fs-3 mb-3"><i class="fa-solid fa-music"></i></button>
+                <!-- Cerca -->
+                <button class="btn btn-outline-light fs-3 mb-3"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <!-- Lista brani -->
+                <button class="btn btn-outline-light fs-3 mb-3"><i class="fa-solid fa-list"></i></button>
+            </div>
+
+            <!--colonna 2: Sezione dinamica  -->
+            <div id="wrapper" class="col-md-11 d-flex justify-content-around align-items-center">
+                <!-- sezione Audio e Cover -->
+
+
+                <!-- sezione info track-->
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap Js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- My script Js -->
+    <script src="./main.js"></script>
+</body>
+</html>

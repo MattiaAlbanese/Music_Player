@@ -1,0 +1,49 @@
+*{
+    color: #57C5B6;
+}
+
+/* contenitore principale */
+.title-custom{
+    background: radial-gradient(#002B5B, #1A5F7A, #159895, transparent, transparent, transparent);
+    width: 50%;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.bg-image{
+    background: url('./media/bg-image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* immagine cover */
+.img-rounded{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.img-rotate{
+    animation: rotate 10s linear infinite;
+}
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Media Queries */
+/* Tablet e Portatili 13" */
+@media screen and (max-width: 1200px) {
+    .img-rounded {
+        width: 300px;
+        height: 300px;
+    }
+}
+/* Mobile */
+@media screen and (max-width: 500px) {
+    .img-rounded {
+        width: 200px;
+        height: 200px;
+    }
+}
